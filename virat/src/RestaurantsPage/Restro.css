@@ -1,0 +1,107 @@
+.routepage {
+  display: flex;
+  background-color: #fcf1e8;
+  margin-top: -9px;
+  justify-content: space-between; /* Space between left and right parts */
+  width: 100%;
+  padding: 10px; /* Add some padding */
+}
+
+.routeimg {
+  height: 60px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.leftpart {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow left part to grow */
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.rightpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout{
+  color: white;
+  margin-left: 10px; /* Space between input and buttons */
+  background-color: #11080d;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.ipt {
+  height: 40px; /* Increase height for better usability */
+  width: 200px; /* Width remains the same */
+  border-radius: 50px;
+  padding: 0 15px; /* Adjust padding */
+  margin-left: 10px; /* Add space from logo */
+}
+
+.search, .sort {
+  margin-left: 10px; /* Space between input and buttons */
+  background-color: #cf0973;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.sort:hover,
+.search:hover {
+  background-color: white;
+  color: #cf0973;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0 20px; /* Add padding for cards */
+  gap: 20px; /* More gap between cards */
+}
+
+.mapcard {
+  margin-top: 20px;
+}
+
+/* Responsive Design for max-width 600px */
+@media only screen and (max-width: 600px) {
+  .routepage {
+    flex-direction: column; /* Stack left and right parts vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .leftpart {
+    justify-content: center; /* Center align logo and input */
+    margin-bottom: 10px; /* Space below */
+    flex-direction: column; /* Stack input and buttons vertically */
+  }
+
+  .ipt {
+    width: 90%; /* Full width on mobile */
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 10px; /* Add margin below input */
+  }
+
+  .search, .sort {
+    width: 90%; /* Full width for buttons */
+    margin: 5px 0; /* Vertical margin */
+  }
+
+  .cards {
+    padding: 0 10px; /* Less padding on mobile */
+  }
+
+  .mapcard {
+    width: 100%; /* Cards take full width on mobile */
+    max-width: 300px; /* Optional max width for better look */
+    margin-left: 20px;
+  }
+}

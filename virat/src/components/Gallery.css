@@ -1,0 +1,75 @@
+.gallery {
+  background-image: url('https://one8commune.co.in/wp-content/uploads/2024/03/286f05e79d3458cec16dcaf4dad5db3c-1024x653.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.innergallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all elements (heading, image, buttons) */
+  max-width: 100%;
+}
+
+.g-head {
+  margin: 20px 0;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.g-image {
+  width: 90vw; /* Full width for mobile responsiveness */
+  max-width: 100%; /* Ensure image does not overflow */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Ensure image is centered */
+}
+
+.g-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 90vw;
+  margin-top: 20px;
+}
+
+h2 {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.move:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery {
+    padding: 10px;
+    padding-top: 100px;
+  }
+
+  .g-head {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .g-image {
+    width: 100vw; /* Full width for mobile */
+    margin: 0 auto; /* Ensure image stays centered */
+  }
+
+  .g-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

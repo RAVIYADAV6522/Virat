@@ -1,0 +1,115 @@
+.footer {
+  width: 100vw;
+  margin-top: -9px;
+  margin-bottom: -9px;
+  margin-left: -10px;
+  margin-right: -8px;
+  background-color: #313d2a;
+  color: white;
+  height: auto; /* Changed to auto for responsive height */
+  padding-bottom: 20px;
+}
+
+.upperfooter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+  padding: 20px;
+  gap: 40px;
+}
+
+.socialmedia-link {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.imagelink {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 120px;
+  padding-left: 100px;
+  padding-top: 120px;
+}
+
+.upperfooter2, .upperfooter3 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.par {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.upperfooter1 {
+  margin-left: 0;
+  text-align: center;
+}
+
+.lowerfooter {
+  text-align: center;
+  padding: 10px 40px;
+  margin-left: 0; /* Removed margin-left for better centering */
+}
+
+/* Responsive for max-width 600px */
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: auto; /* Auto height for mobile */
+  }
+
+  .upperfooter {
+    flex-wrap: wrap; /* Stack content vertically */
+    flex-direction: column;
+    align-items: center; /* Center content on mobile */
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .upperfooter1, .upperfooter2, .upperfooter3 {
+    margin: 10px 0;
+    width: 100%; /* Full width on mobile */
+    text-align: center;
+  }
+
+  .socialmedia-link {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .imagelink {
+    height: 30px;
+    width: 30px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 100px;
+    padding-left: 60px; /* Removed padding to center the logo */
+    padding-bottom: 20px;
+  }
+
+  .par {
+    font-size: 14px;
+    margin-top: 0; /* Removed negative margin */
+  }
+
+  .upperfooter2, .upperfooter3 {
+    margin-top: 0; /* Remove extra margins for better stacking */
+  }
+
+  .lowerfooter {
+    font-size: 12px;
+    padding: 15px 0;
+    margin-left: 0; /* Ensure it's centered */
+  }
+}

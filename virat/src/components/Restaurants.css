@@ -1,0 +1,157 @@
+.parentrestro {
+  background-color: #fcf1e8;
+  padding: 20px;
+  width: 100%;
+}
+
+/* General Styling */
+.Restaurants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.restrohead {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.restrohead, .r-head {
+  margin-left: 5px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 10px 0;  /* Add margin to separate paragraphs */
+}
+
+.r-head-para {
+  margin-bottom: 60px;
+}
+
+.RestroMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.restrodata {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+.restrodata img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.location {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Restrofooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.r-div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.moredata {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #cf0973;
+  cursor: pointer;
+  border: 1px solid #cf0973;
+  width: 250px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.moredata:hover {
+  color: #cf0973;
+  background-color: white;
+}
+
+/* Responsive design for max-width 600px */
+@media only screen and (max-width: 600px) {
+  .restrohead, .r-head {
+    margin-left: 0;
+    text-align: center;
+    margin-right: 13px;
+  }
+
+  .r-head {
+    font-size: 28px; /* Adjust heading size */
+  }
+
+  .restrohead p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 10px;  /* Add padding for better readability */
+    margin-bottom: 20px;
+  }
+
+  .RestroMiddle {
+    margin-top: -10px;
+  }
+
+  .restrodata {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .restrodata img {
+    width: 90vw; /* Full width image for mobile */
+    height: auto;
+  }
+
+  .location {
+    font-size: 16px;
+  }
+
+  .Restrofooter {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .moredata {
+    margin-left: 0;
+    width: 60vw; /* Adjust button size for mobile */
+    font-size: 16px;
+    margin-left: -5px;
+  }
+
+  p {
+    font-size: 16px; /* Adjust font size for better readability */
+    line-height: 1.5;
+    padding: 0 15px; /* Add padding for paragraph responsiveness */
+    margin: 20px 0;
+    
+  }
+  .parentrestro{
+    padding-top: 50px;
+  }
+}

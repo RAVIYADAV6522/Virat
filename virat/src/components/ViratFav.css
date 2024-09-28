@@ -1,0 +1,60 @@
+.viratfav {
+  display: flex;
+  background-color: #fff2d7;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px; /* Add space between text and image */
+}
+
+.ravi {
+  max-width: 60%; /* Make the image responsive */
+  height: auto;
+  margin-top: 150px;
+  margin-right: 140px;
+  margin-bottom: 150px;
+}
+
+.data {
+  margin-top: 200px;
+  margin-left: 370px;
+  margin-right: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* Add line height for better readability */
+}
+
+/* Responsive design for max-width 600px */
+@media only screen and (max-width: 600px) {
+  .viratfav {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center;
+    padding: 20px;
+    padding-top: 60px;
+  }
+
+  .ravi {
+    margin: 20px 0; /* Reduce margins for smaller screens */
+    width: 80vw; /* Adjust image size for mobile */
+    height: auto;
+    margin-left: 40px;
+  }
+
+  .data {
+    margin: 20px 0;
+    text-align: center; /* Center the text for mobile */
+  }
+
+  h3 {
+    font-size: 28px; /* Adjust heading size */
+  }
+
+  p {
+    font-size: 16px; /* Reduce paragraph size */
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,57 @@
+/* .card {
+  border: 5px solid #cf0973;
+  width: 420px;
+  height: 660px;
+  margin-top: 10px;
+  padding: 5px 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.cardimg {
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+}
+
+.cardname,
+.cardlocation,
+.cardrating {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.datacard {
+  text-align: center;
+}
+
+/* Responsive Design for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90vw; 
+    height: auto; 
+    padding: 10px;
+    margin-left: -30px;
+  }
+
+  .cardimg {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Adjust height based on width */
+    padding-left: 0; /* Remove padding for mobile */
+  }
+
+  .cardname,
+  .cardlocation,
+  .cardrating {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .datacard {
+    margin-left: 0; /* Center content */
+    padding: 0 10px;
+  }
+}

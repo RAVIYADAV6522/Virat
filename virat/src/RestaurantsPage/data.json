@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "FOURLEAF CAFE & RESTAURANTS",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/LAH-09970-2.webp",
+    "rating": 4.5,
+    "location": "Mumbai"
+  },
+  {
+    "id": 2,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/2-1365x2048.webp",
+    "rating": 4.4,
+    "location": "New Delhi"
+  },
+  {
+    "id": 3,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/DSC07198.webp",
+    "rating": 4.9,
+    "location": "New Delhi"
+  },
+  {
+    "id": 4,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/1.webp",
+    "rating": 4.8,
+    "location": "Kolkata"
+  },
+  {
+    "id": 5,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/Copy-of-248531208_579873489736574_1019405788401332836_n.webp",
+    "rating": 4.1,
+    "location": "Pune"
+  },
+  {
+    "id": 6,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://one8commune.co.in/wp-content/uploads/2024/03/TH_One8_08227_46.webp",
+    "rating": 4.94,
+    "location": "Bangalore"
+  },
+  {
+    "id": 7,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://imgmedia.lbb.in/media/2019/08/5d637cf906adfe25f48ee48f_1566801145096.jpg",
+    "rating": 4.7,
+    "location": "Delhi"
+  },
+  {
+    "id": 8,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://lh3.googleusercontent.com/9GxtgXXE-E5MmZCJnyUXJu8nWiOH6FYo0R8e-YZSc9KIXO0wmP0HLehc0RZirkpSRibu7VY2M4435Wa58Pdma_iAs9rnD8WmElYqDUE=w1200-rw",
+    "rating": 4.74,
+    "location": "Kolkata"
+  },
+  {
+    "id": 9,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://airmenusimages.blr1.cdn.digitaloceanspaces.com/outlets/outlets_164_1653392464.1876428.png",
+    "rating": 4.2,
+    "location": "Jaipur"
+  },
+  {
+    "id": 10,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/28/c2/9c/21/caption.jpg",
+    "rating": 4.55,
+    "location": "Pune"
+  },
+  {
+    "id": 11,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://assets.gqindia.com/photos/5d4445023519ce0008e651c0/1:1/w_1015,h_1015,c_limit/virat%20kohli%20delhi%20restaurant%20one8%20commune.jpg",
+    "rating": 4.42,
+    "location": "Hyderabad"
+  },
+  {
+    "id": 12,
+    "name": "ONE 8 COMMUNE",
+    "image": "https://travellersworldonline.com/wp-content/uploads/2024/03/one8-Commune-Bangalore-1.jpg",
+    "rating": 4.92,
+    "location": "Bangalore"
+  }
+
+]

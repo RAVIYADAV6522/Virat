@@ -1,0 +1,112 @@
+img {
+  height: 300px; /* Adjust image height for smaller screens */
+  width: 100%; /* Full width for mobile screens */
+  max-width: 350px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure images don't stretch */
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  justify-content: center;
+  gap: 20px; /* Add spacing between images */
+  margin-left: 0; /* Remove unnecessary margin for mobile */
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; /* Adjust margin for better mobile view */
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust for proper spacing */
+}
+
+.para {
+  font-size: 24px; /* Smaller font size for mobile */
+}
+
+h3 {
+  font-size: 30px; /* Smaller heading for mobile */
+  padding-top: 20px; /* Adjust padding for mobile */
+}
+
+a, p {
+  font-size: 24px; /* Font size adjustment */
+  color: black;
+  text-decoration: none;
+}
+
+.img1 {
+  margin-left: 0;
+  
+   /* Remove unnecessary margin for mobile */
+}
+.img1a{
+  margin-right: 20px;
+}
+.img2{
+  margin-left: -15px;
+}
+
+.instapage{
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+/* Responsive styling for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+   .instapage {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px; /* Add padding for better spacing */
+     padding-top: 60px;
+   }
+
+   .heading {
+     margin-top: 20px; /* Reduce margin for mobile */
+   }
+
+   .images {
+     flex-direction: column; /* Stack images vertically on mobile */
+     gap: 0px; /* Add gap between images */
+     margin-left: 0; /* Remove left margin */
+   }
+
+   .para {
+     font-size: 20px;
+     margin-right: 20px; /* Further reduce font size for small screens */
+   }
+
+   h3 {
+     font-size: 28px; /* Slightly smaller heading for better fit */
+     padding-top: 10px;
+     justify-content: center;
+     padding-left: 20px;
+   }
+   .img2{
+    margin-left: 0px;
+   }
+   h3{
+    padding-left: 10px;
+   }
+}
+
+
+@media only screen and (max-width: 383px) {
+  h3{
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h3{
+    padding-right: 80px;
+  }
+}

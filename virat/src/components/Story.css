@@ -1,0 +1,63 @@
+.story {
+  display: flex;
+  background-color: #313d2a;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.storypara {
+  color: white;
+  margin-top: -50px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.storyheadpara {
+  color: white;
+  margin-top: 100px;
+  font-size: 24px;
+  
+}
+
+.storylogo {
+  height: 60px;
+  width: 140px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+/* Responsive design for max-width 600px */
+@media only screen and (max-width: 600px) {
+  .story {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .storyheadpara {
+    margin-top: 20px;
+    font-size: 22px; /* Adjusted for mobile */
+  }
+
+  .storypara {
+    font-size: 16px; /* Reduced font size for smaller screens */
+    line-height: 1.4;
+    margin-top: 20px; /* Adjusted to reduce negative margin */
+    padding: 0 15px; /* Added padding for better readability */
+  }
+
+  .storylogo {
+    height: 50px;
+    width: 120px;
+    margin-top: 20px; /* Ensure it has space */
+  }
+
+  .lungi {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+  }
+}

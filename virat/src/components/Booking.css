@@ -1,0 +1,20 @@
+.booking{
+  background-color: #fcf1e8;
+  display: flex;
+}
+
+.innerbooking{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upperform{
+  display: flex;
+  
+  
+}
+.middleform{
+  display: flex;
+  
+}
